@@ -1,0 +1,25 @@
+footer{
+    h4{
+        color: #ff8629;
+        font-size: 28px;
+        margin-bottom: 36px;
+    }
+   p{
+    color: #ff8629;
+    margin-bottom: 0;
+    font-size: 20px;
+   }
+    li{
+        a{
+            color: #ff8629; 
+            font-size: 20px;
+            text-decoration: none;
+            line-height: 45px;
+            letter-spacing: 0.05px;
+            font-family: 'Roboto', sans-serif;
+            &:hover{
+                color: #ff8629; 
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.navbar {
+    transition: all 0.4s ease-in-out;
+
+    .nav-item {
+        margin: 0 .8rem;
+
+        @media (max-width: 768px) {
+            margin: 0 0rem;
+            text-align: right;
+        }
+    }
+    .dropdown-toggle::after {
+        display:none !important;
+    }
+
+    .nav-link {
+        font-size: 25px ;
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        padding: 35px 22px;
+        color: #000 !important;
+        // &:hover{
+        //     color:$link-border !important;
+        // }
+        @media (max-width:768px){
+            font-size: 16px;
+            padding: 12px 22px !important;
+        }
+    }
+}

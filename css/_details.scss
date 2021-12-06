@@ -1,0 +1,33 @@
+.details-container{
+    h1{
+        font-family: 'Conv_Saira-Bold', sans-serif;
+    }
+    h6{
+        font-family: 'Conv_Saira_Condensed-SemiBoldItalic',sans-serif;
+        letter-spacing: 0.03em;
+    }
+    label{
+        font-family: 'Conv_Saira-Bold', sans-serif;  
+    }
+    .form-control{
+        background: #444444;
+        min-height: 60px;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 0;
+    }
+    .btn-primary{
+        font-family: 'Conv_Saira_Condensed-SemiBoldItalic',sans-serif;
+        font-weight: 600;
+        background-color: #ff8629 !important;
+    }
+    .slider-nav{
+        .slick-slider {
+            margin:0 -3px;
+           
+        }
+        .slick-slide{
+            padding:3px;
+        }
+    }
+}
